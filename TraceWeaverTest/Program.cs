@@ -11,24 +11,17 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddBlazorTrace(new WvBlazorTraceConfiguration()
 {
-#if DEBUG
 	EnableTracing = true,
-#else
-	EnableTracing = false,
-#endif
 });
-#if DEBUG
-//Snapshots require bigger hub message size
 builder.Services.Configure<HubOptions>(options =>
 {
 	options.MaximumReceiveMessageSize = 10 * 1024 * 1024; // 10MB
 });
-//To get the message size error if it got bigger than the above
 builder.Services.AddSignalR(o =>
 {
 	o.EnableDetailedErrors = true;
 });
-#endif
+
 var app = builder.Build();
 
 DirtyHack.ServiceProvider = app.Services;

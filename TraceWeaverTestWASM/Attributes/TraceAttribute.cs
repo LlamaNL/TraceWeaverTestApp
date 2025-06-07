@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Components;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace TraceWeaverTest.Attributes;
+namespace TraceWeaverTestWASM.Attributes;
 
 [AttributeUsage(AttributeTargets.Method | AttributeTargets.Class)]
 public class TraceAttribute : Attribute, IMethodDecorator

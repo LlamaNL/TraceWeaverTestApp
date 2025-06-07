@@ -1,6 +1,6 @@
-﻿using TraceWeaverTest.Attributes;
+﻿using TraceWeaverTestWASM.Attributes;
 
-namespace TraceWeaverTest.Components.Pages;
+namespace TraceWeaverTestWASM.Pages;
 
 [Trace]
 public partial class Weather

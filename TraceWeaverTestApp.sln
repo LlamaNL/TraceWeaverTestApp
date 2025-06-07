@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36127.28 d17.14
+VisualStudioVersion = 17.14.36127.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceWeaverTest", "TraceWeaverTest\TraceWeaverTest.csproj", "{2FDA7AAF-CE46-4D37-A452-0D65A37B7802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceWeaverTestWASM", "TraceWeaverTestWASM\TraceWeaverTestWASM.csproj", "{97C000BD-752D-DC5F-134B-20129E1FBE64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2FDA7AAF-CE46-4D37-A452-0D65A37B7802}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FDA7AAF-CE46-4D37-A452-0D65A37B7802}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FDA7AAF-CE46-4D37-A452-0D65A37B7802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C000BD-752D-DC5F-134B-20129E1FBE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C000BD-752D-DC5F-134B-20129E1FBE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C000BD-752D-DC5F-134B-20129E1FBE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C000BD-752D-DC5F-134B-20129E1FBE64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
